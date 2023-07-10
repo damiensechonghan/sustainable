@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- nav bar-->
+    <section id="header">
+        <a href="index.html"><img src="./logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li id="lg-cart"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <!-- header -->
+    <section id="page-header">
+        <h2>#wearesustainable</h2>
+    </section>
+
+    <!-- cart table -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                    <td>Remove</td>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td><img src="./leather-cafe-racer-jacket.png" alt=""></td>
+                    <td>Leather Jacket</td>
+                    <td>$124.99</td>
+                    <td><input type="number" value="2"></td>
+                    <td>$249.98</td>
+                    <td><a href="#"><i class="fa-solid fa-xmark" style="color: black;"></i></a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <!-- cart info-->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter coupon code">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$249.98</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>$10.99</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$260.97</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 123 Singapore Street</p>
+            <p><strong>Phone: </strong> 91234567</p>
+            <p><strong>Opening Hours: </strong> 10am - 10pm / Monday - Sunday</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col install">
+            <h4>Mobile APP</h4>
+            <div class="row">
+                <img style="width: 150px;" src="./app-google-store.png" alt="">
+            </div>
+            <p><strong>Payment Gateways</strong></p>
+            <img style="width: 200px" src="./payment-gateways.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2023 The Sustainable Club</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
